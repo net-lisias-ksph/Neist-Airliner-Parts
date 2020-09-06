@@ -1,5 +1,17 @@
 # Neist Airliner Parts :: Archive
 
+* 2019-0329 : P5 (neistridlar) for KSP >= 1.4
+	+ B73 cockpit added
+	+ 12NCS-B73 added
+	+ CS22 cockpit added
+	+ 12NCS-CS22 added
+	+ A38 cockpit added
+	+ 18NCS-A38 added
+	+ 50PC added
+	+ 37-50AD Added
+	+ Adapters now have proper textures
+	+ Some IVAs have been populated with props.
+	+ Possibly other stuff
 * 2018-0829 : P4 (neistridlar) for KSP >= 1
 	+ Preview release 4. Added more cargo bays and doors, as well as passenger doors added CF6 sounds by Eskandre and improved some textures. 
 * 2018-0813 : P3 (neistridlar) for KSP >= 1
