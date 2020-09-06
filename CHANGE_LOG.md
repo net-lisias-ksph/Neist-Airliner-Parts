@@ -1,5 +1,7 @@
 # Neist Airliner Parts :: Archive
 
+* 2018-0829 : P4 (neistridlar) for KSP >= 1
+	+ Preview release 4. Added more cargo bays and doors, as well as passenger doors added CF6 sounds by Eskandre and improved some textures. 
 * 2018-0813 : P3 (neistridlar) for KSP >= 1
 	+ This release adds a the 18CF6 engine, and adds a version without variants, for backwardscompatibility 
 * 2018-0730 : P2 (neistridlar) for KSP >= 1.4
