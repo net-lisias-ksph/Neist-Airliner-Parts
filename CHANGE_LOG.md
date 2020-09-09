@@ -1,5 +1,7 @@
-# Neist Airliner Parts :: Archive
+# Neist Airliner Parts :: Change Log
 
+* 2019-0909 : P6 (neistridlar) for KSP >= 1.8
+	+ Fixed flipped nodes on TCS parts
 * 2019-0329 : P5 (neistridlar) for KSP >= 1.4
 	+ B73 cockpit added
 	+ 12NCS-B73 added
