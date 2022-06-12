@@ -1,0 +1,45 @@
+
+@PART[18ConformalTank1]:NEEDS[SimpleFuelSwitch]
+{
+	MODULE
+    {
+    	name = ModuleSimpleFuelSwitch
+    }
+
+	MODULE
+	{		
+		name = ModuleSwitchableResources
+		resourcesId = liquid_fuel_only
+		displayName = #SimpleFuelSwitch_LiquidFuel
+		selectorFieldName = #SimpleFuelSwitch_fuelTypeLabel
+		isDefault = true
+		RESOURCE
+		{
+			name = LiquidFuel
+			amount = 100
+			maxAmount = 100
+		}
+	}
+
+	MODULE
+	{
+		name = ModuleSwitchableResources
+		resourcesId = liquid_fuel_oxidizer
+		displayName = #SimpleFuelSwitch_LiquidFuelAndOxidizer
+		selectorFieldName = #SimpleFuelSwitch_fuelTypeLabel
+		RESOURCE
+		{
+			name = LiquidFuel
+			amount = 45
+			maxAmount = 45
+		}
+		RESOURCE
+		{
+			name = Oxidizer
+			amount = 55
+			maxAmount = 55
+		}
+	}
+	
+	-RESOURCE[LiquidFuel] {}
+}
