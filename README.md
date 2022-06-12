@@ -43,11 +43,12 @@ This AddOn is (C) [neistridlar](https://forum.kerbalspaceprogram.com/index.php?/
 
 ## References
 
-* [neistridlar](https://forum.kerbalspaceprogram.com/index.php?/profile/20296-neistridlar/)
+* [neistridlar](https://forum.kerbalspaceprogram.com/index.php?/profile/20296-neistridlar/) ROOT
 	+ [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/174152-*)
 	+ [Github](https://github.com/neistridlar/Neist-Airliner-Parts)
 	+ Imgur:
 		- [Neist Air Pictures Special](https://imgur.com/a/fAViy)
 		- [Neist Airlines Parts Showcase](https://imgur.com/a/ljyIgIH)
-
-
+* [KerbMario](https://forum.kerbalspaceprogram.com/index.php?/profile/221047-kerbmario/) CURRENT
+	+ [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/208435-neistair-reupdated-updated-by-kerbmario-112x/)
+	+ [Spacedock](https://spacedock.info/mod/3034/NeistAir%20Reupdated)
