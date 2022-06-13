@@ -1,5 +1,7 @@
 # Neist Airliner Parts :: Change Log
 
+* 2022-0613 : P8.1 (KerbMario) for KSP 1.12.3 PRE-RELEASE
+	+ added licensing
 * 2022-0605 : P8 (KerbMario) for KSP 1.12.3 PRE-RELEASE
 	+ added SimpleFuelSwitch Support for all Fuel Tanks
 	+ added FilterExtensions as bundled (for now, i will hopefully find a workaround that doesn't need FilterExtensions bundled :P)
