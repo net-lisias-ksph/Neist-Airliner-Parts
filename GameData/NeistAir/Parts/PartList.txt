@@ -1,0 +1,70 @@
+// Aero Parts
+06NCS
+06NCS2
+12NCS
+14MST
+20MST
+25MST
+36MST
+47MST
+58MST
+74MST
+90MST
+// Command Cockpits
+18AN-24
+CRJCockpits
+18DC3
+25DC9
+25B73
+25B76
+25CS22
+31A35
+31DC10
+37A38
+// Jet Turbofan Engines
+18CF6
+CF34-8C
+// Jet Engine Accesories
+18CF6-TopMountPylon
+CF34-8-SideMountPylon
+CF34-8-TopMountPylon
+// Fuel Tanks
+18ConformalTank1
+18ConformalTank2
+25ConformalTank1
+25ConformalTank2
+31ConformalTank1
+31ConformalTank2
+37ConformalTank1
+37ConformalTank2
+// Structural Parts
+25-31AD
+25-31AD-2
+25-37AD
+31-37AD
+37-50AD
+18-06CurvyTail
+TCS-18-12
+TCS-25-12
+TCS-31-25
+TCS-37-25
+TCS-50-37
+// Utility
+18PD
+25PD
+31PD
+37PD
+50PD
+18CD
+18CB
+18CBjr
+25CD
+25CB
+25CBjr
+31CD
+31CB
+31CBjr
+37CD
+37CB
+37CBjr
+50PC

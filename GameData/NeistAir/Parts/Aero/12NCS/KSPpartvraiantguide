@@ -1,0 +1,151 @@
+
+Members
+ 663
+ 699
+About me: Tinkerer
+Posted April 3, 2018 (edited)
+Guide:
+
+// optional: In Advanced mode in the VAB/SPH, themes change the default theme of all available parts, and allow you to apply the theme en masse to the current craft
+VARIANTTHEME
+{
+	// required: name of theme
+	name = <theme name>
+
+	// required: name of theme as displayed in GUI, can be constant or a #localized reference
+	displayName = <localized name>
+
+	// optional: description of theme, can be constant or a #localized reference
+	description = <localized description>
+
+	// required: colors to use in GUI, alpha not supported
+	primaryColor = #rrggbb
+	secondaryColor = #rrggbb
+}
+
+// all <path>'s should not include extension (f.e. MyMod/MyModel.mu would be MyMod/MyModel, MyMod/MyTexture_d.dds would be MyMod/MyTexture_d)
+PART {
+	// all possible variant models must be added
+	MODEL {
+		model = <variant model>
+	}
+
+	// multiple ModulePartVariants allowed; lower variants will override node settings from previous ones if they are the same; for example you cannot change TEXTURE.shader in one and TEXTURE._Color in another, but can change GAMEOBJECTS.transform in one and TEXTURE._Color in another. JPLRepo has stated that while it is possible to have multiple ModulePartVariants, it is not recommended or intended.
+	MODULE {
+		name = ModulePartVariants
+
+		// optional: name of VARIANT to use as default
+		baseVariant = <variant name>
+
+		// optional: name of default variant to display in GUI, can be constant or a #localized reference
+		// default is 'Basic', only use if not specified a baseVariant
+		baseDisplayName = <localized name>
+
+		// optional: theme to which the default variant belongs
+		baseThemeName = <theme name>
+      
+		// optional: whether to create multiple procedural drag cubes
+		// default is true
+		useMultipleDragCubes = <true/false>
+
+		VARIANT {
+			// required: default variant name is Basic, must be unique per part
+			name = <variant name>
+
+			// required: name of variant to display in GUI, can be constant or a #localized reference
+			displayName = <localized name>
+
+			// optional: name of theme to which this variant belongs; variants may only belong to one
+			themeName = <theme name>
+
+			// required: colors to use in right-click GUI, alpha not supported
+			primaryColor = #rrggbb
+			secondaryColor = #rrggbb
+
+			// optional: allows grouping of like-variants. mostly used to disallow changing a variant to a non-like group while parts attached to surface.
+			// GroupA, GroupB, GroupC
+			sizeGroup = <group name>
+
+			// optional: may be negative
+			cost = <additional cost>
+			mass = <additional mass>
+      
+			// optional: lists should be comma-delimited (but I haven't tested)
+			disabledAnimations = <list of animations>
+			disabledEvents = <list of module events> // format: <module name>.<event name>
+
+			// optional: only one GAMEOBJECTS node per VARIANT
+			GAMEOBJECTS {
+				// set which transforms are visible/hidden
+				<transform name> = <true/false>
+			}
+
+			// optional: arbitrary key,value pairs for use in PartModules/mods
+			EXTRA_INFO {
+				<info name> = <info value>
+
+				// Known Examples (ModuleProceduralFairing)
+				FairingsTextureURL = <path to _d>
+				FairingsNormalURL = <path to _n>
+			}
+
+			// optional: only one NODES node per VARIANT, assumes scale=1.0, rescaleFactor=1.0
+			NODES {
+				// all optional: node adjustments per variant
+				node_attach = x, y, z, angx, angy, angz, size
+				node_stack_top = x, y, z, angx, angy, angz, size
+				node_stack_bottom = x, y, z, angx, angy, angz, size
+				node_stack_bottomXX = x, y, z, angx, angy, angz, size
+				node_stack_connectXX = x, y, z, angx, angy, angz, size
+			}
+
+			// optional: multiple TEXTURE nodes allowed (for different materialName)
+			TEXTURE {
+				// optional: used to restrict this TEXTURE change to the named material within this part, otherwise all materials in this part
+				// material names are usually the same as the mesh name to which they belong, but not always
+                // note that this parameter automatically includes wildcards, so MyMat and MyMat2 would both change if set to MyMat; this can be worked around by adding an additional TEXTURE
+				materialName = <name of material>
+
+				// optional: change the existing material shader, only able to find built-in KSP shaders
+				// shader short-list:
+				// KSP/Alpha/Cutoff
+				// KSP/Alpha/Cutoff Bumped
+				// KSP/Alpha/Translucent
+				// KSP/Alpha/Translucent Additive
+				// KSP/Alpha/Translucent Specular
+				// KSP/Alpha/Unlit Transparent
+				// KSP/Bumped
+				// KSP/Bumped Specular
+				// KSP/Bumped Specular (Mapped)
+				// KSP/Diffuse
+				// KSP/Emissive/Bumped Specular
+				// KSP/Emissive/Bumped Specular (Mapped)
+				// KSP/Emissive/Diffuse
+				// KSP/Emissive/Specular
+				// KSP/Specular
+				// KSP/Specular (Transparent)
+				shader = <shader>
+
+				<texture property> = <path>
+				<color property> = #rrggbb // alpha not supported
+				<float property> = 0.0
+
+				// Known Examples
+				_MainTex = <path to _d>
+				_BumpMap = <path to _n>
+				_Color = #rrggbb
+				_SpecColor = #rrggbb
+				_SpecMap = <path to _s>
+				_Shininess = 1.0
+				_EmissiveColor = #rrggbb
+				_Emissive = <path to _e>
+				_Opacity = 1.0
+				_RimFalloff = 0.0
+				_RimColor = #rrggbb
+				_TemperatureColor = #rrggbb
+				_BurnColor = #rrggbb
+				_AmbientMultiplier = 0.2
+			}
+		}
+	}
+}

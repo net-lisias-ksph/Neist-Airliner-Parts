@@ -14,10 +14,11 @@ i will be keeping updating it more NOTE: just check changelog to ese what i adde
 
 
 
-Sneak-Peek for P9:
+Sneak-Peek for P10:
 
-Probably light Support for cabins
-a new cockpit including model (will be chosen from suggestions from my KSP Forums Thread!)
+I do not know. Probably CommunityTechTree support.  Just maybe Kerbalism Failures, must think over that.
+
+
 
 
 Roadmap (I will be working top to bottom!)
@@ -30,6 +31,13 @@ EngineLighting Support
 
 Changelog
 
+P9 - 19th of June 2022 (KerbMario)
+
+- Proper Lighting Support for all Cabins 
+- Put some Tweakscale MODULES into MMPatches
+- added PartList.txt, for CommunityTechTree support in the future
+- added a new Variant of the CF6 engine, which is lighter and therefore more efficient(Titanium and Composite Blades)
+- various other stuff
 
 P8 - 5th of June 2022 (KerbMario)
 - added SimpleFuelSwitch Support for all Fuel Tanks

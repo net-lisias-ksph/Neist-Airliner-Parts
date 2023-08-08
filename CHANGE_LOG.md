@@ -1,5 +1,11 @@
 # Neist Airliner Parts :: Change Log
 
+* 2022-0619 : P9 (KerbMario) for KSP >= 1.8
+	+ Proper Lighting Support for all Cabins
+	+ Put some Tweakscale MODULES into MMPatches
+	+ added PartList.txt, for CommunityTechTree support in the future
+	+ added a new Variant of the CF6 engine, which is lighter and therefore more efficient(Titanium and Composite Blades)
+	+ various other stuff
 * 2022-0605 : P8 (KerbMario) for KSP >= 1.8
 	+ added SimpleFuelSwitch Support for all Fuel Tanks
 	+ added FilterExtensions as bundled (for now, i will hopefully find a workaround that doesn't need FilterExtensions bundled :P)
