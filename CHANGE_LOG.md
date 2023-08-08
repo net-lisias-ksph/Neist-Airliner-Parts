@@ -1,5 +1,17 @@
 # Neist Airliner Parts :: Change Log
 
+* 2022-0605 : P8 (KerbMario) for KSP >= 1.8
+	+ added SimpleFuelSwitch Support for all Fuel Tanks
+	+ added FilterExtensions as bundled (for now, i will hopefully find a workaround that doesn't need FilterExtensions bundled :P)
+	+ added FilterExtensions Support
+	+ fixed some Parts and their Tweakscale configs
+	+ renamed 31-37AD to 37-50AD, as it was named wrongfully
+	+ added a custom animation to 25PC, i thought it was better (also i now know how animation works in Blender :D)
+* 2022-0603 : P7 (KerbMario) for KSP >= 1.8 PRE-RELEASE
+	+ added Tweakscale support for all parts
+	+ fixed most part names.
+	+ made some part descriptions better.
+	+ Added EngineIgnitor Support to the 2 Engines.
 * 2019-0909 : P6 (neistridlar) for KSP >= 1.8
 	+ Fixed flipped nodes on TCS parts
 * 2019-0329 : P5 (neistridlar) for KSP >= 1.4
