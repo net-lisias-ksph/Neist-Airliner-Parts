@@ -1,5 +1,10 @@
 # Neist Airliner Parts :: Change Log
 
+* 2023-0524 : P9.1A (KerbMario) for KSP >= 1.8 
+	+ late hotpatch:
+		- fixed file structuring with main folder
+		- fixed grammar etc. in README.txt and localization readme
+		- removed several unnecessary files and experimental parts
 * 2022-1110 : P9.1 (KerbMario) for KSP >= 1.8
 	+ MAJOR Bug now fixed new part added other various things // there may be some source files leftover, ignore them
 * 2022-0619 : P9 (KerbMario) for KSP >= 1.8

@@ -2,31 +2,27 @@ The NeistAir Mod, originally made by neistridlar,
 (Original Forum Thread: https://forum.kerbalspaceprogram.com/index.php?/topic/174152-wip-neist-airliner-parts/ )
 (original NeistAir Github Repository: https://github.com/neistridlar/Neist-Airliner-Parts/ )
 (neistridlar on the KSP forums: https://forum.kerbalspaceprogram.com/index.php?/profile/20296-neistridlar/ )
-
-
-this time REUPDATED by KerbMario ( https://forum.kerbalspaceprogram.com/index.php?/profile/221047-kerbmario/ )
+now REUPDATED by KerbMario ( https://forum.kerbalspaceprogram.com/index.php?/profile/221047-kerbmario/ )
 
 
 
-Since i started working on this, i had been adding Tweakscale support and Engine Ignitor SUpport for now.
-i will be keeping updating it more NOTE: just check changelog to ese what i added.
-
+Since i started working on this, i had been adding Tweakscale support and Engine Ignitor Support for now.
+(and more features/parts, see changelog or see in-game :P)
 
 
 
 Sneak-Peek for P10:
 
-I do not know. Probably CommunityTechTree support.  Just maybe Kerbalism Failures, must think over that.
-
+Currently undecided. Probably CommunityTechTree (CTT) support. Kerbalism Failures are also in consideration.
 
 
 
 Roadmap (I will be working top to bottom!)
 
-Light Support for cabins
-CommunityTechTree Support
+Light Support for cabins (DONE)
+CommunityTechTree Support (WIP)
 ConnectedLivingSpace support
-EngineLighting Support
+EngineLighting Support (DONE)
 
 
 Changelog
