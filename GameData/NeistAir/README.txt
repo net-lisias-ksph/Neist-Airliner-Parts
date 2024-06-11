@@ -26,6 +26,8 @@ EngineLighting Support (DONE)
 
 
 Changelog
+P9.2 - 29th of may 2024
+- minor TweakScale fix, thanks JonnyOThan
 
 P9 - 19th of June 2022 (KerbMario)
 
